@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Enter file name:"
+read file
+git add "$file"
+echo "Enter commit message:"
+read commitMessage
+git commit -m "$commitMessage for python lists"
+git push
